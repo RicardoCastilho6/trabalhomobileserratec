@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         
+        
       },
       backgroundimg: {
         flex: 1,
@@ -18,8 +19,9 @@ export const styles = StyleSheet.create({
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
         padding: 20,
         borderRadius: 10,
-        borderWidth: 2,
-        borderColor: 'gray'
+        borderWidth: 0.5,
+        borderColor: 'gray',
+        elevation: 1
 
         
         

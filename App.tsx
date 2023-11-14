@@ -18,16 +18,16 @@ export default function lobby() {
             <Text style={styles.textlabel}>CPF/CNPJ</Text>
             <TextInput
               style={styles.textInput}
-              multiline
               placeholder='Insira seu CPF ou CNPJ'
               placeholderTextColor={'blue'}
             />
             <Text style={styles.textlabel}>Senha</Text>
             <TextInput
+              secureTextEntry={true}
               style={styles.textInput}
-              multiline
               placeholder='Insira sua senha'
               placeholderTextColor={'blue'}
+              
             />
             <TouchableOpacity
               style={styles.button}>
